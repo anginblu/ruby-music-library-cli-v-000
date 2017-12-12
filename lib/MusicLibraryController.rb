@@ -24,7 +24,6 @@ class MusicLibraryController
     puts "What would you like to do?"
     command = " "
     while command != "exit"
-      puts "What would you like to do?"
       command = gets.strip
       case command
       when "list songs"
