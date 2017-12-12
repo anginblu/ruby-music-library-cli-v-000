@@ -27,11 +27,11 @@ class MusicLibraryController
       command = gets.strip
       case command
       when "list songs"
-        songs
+        list_songs
       when "list artists"
-        artists
+        list_artists
       when "list genres"
-        genres
+        list_genres
       when "list artist"
         list_songs_by_artist
       when "list genre"
